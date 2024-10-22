@@ -78,14 +78,14 @@ The machine learning model is trained on the `car_prices.csv` dataset using **Go
 
 ## Screenshots
 
-### Home Screen
-![Home Screen](path-to-home-screen-image)
+### Splash Screen
+![Splash Screen](path-to-home-screen-image)
 
-### Input Screen
-![Input Screen](path-to-input-screen-image)
+### Main Screen
+![Main Screen](https://github.com/Kunalp92/Car-Price-Prediction-App/image/WhatsApp Image 2024-10-22 at 12.40.04 PM.jpeg)
 
-### Prediction Screen
-![Prediction Screen](path-to-prediction-screen-image)
+### About Screen
+![About Screen](path-to-prediction-screen-image)
 
 *(Make sure to replace `path-to-home-screen-image` with the actual image paths from your project)*
 
