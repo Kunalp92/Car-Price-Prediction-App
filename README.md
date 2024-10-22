@@ -59,9 +59,8 @@ The app uses a pre-trained model based on a dataset of car prices (`car_prices.c
 - **Transmission**: Transmission type (Manual or Automatic).
 - **Owner**: The number of previous owners.
 
-**Dataset Link**: [Download car_prices.csv](link-to-your-dataset)
+**Dataset Link**: [Download car_prices.csv](https://drive.google.com/file/d/1Y8ixWf7wSDYBCKgMQ_LgebJVkyczEXFK/view?usp=sharing)
 
-*(Make sure to update the link after uploading your dataset to GitHub or a cloud platform)*
 
 ## Model Training
 
@@ -90,12 +89,31 @@ The machine learning model is trained on the `car_prices.csv` dataset using **Go
 
 The Car Price Prediction App is available for download on the Google Play Store:
 
-[Download the app](link-to-your-app)
+[Download the app](https://drive.google.com/file/d/1SzmZa57hgP2Mm6RbA_g7KJZ_WdVoJemN/view?usp=sharing)
 
-*(Update the link after uploading your app to the Play Store)*
 
 ## How to Run the App
 
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/yourusername/car-price-prediction-app.git
+
+2. **Open the project in Android Studio.**
+
+3. **Add TensorFlow Lite model: Ensure the car_price_model.tflite is placed in the assets folder of the Android project.**
+
+4. **Run the app on an Android device or emulator.**
+
+## Requirements
+- **Android Studio:** For app development and testing.
+- **TensorFlow Lite:** For machine learning model inference on Android.
+- **Google Colab:** For model training and testing.
+- **Python:** For model training and preprocessing.
+  
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+- The dataset used in this project is based on publicly available car price datasets.
+- TensorFlow Lite documentation for Android integration.
+- Android Studio community for supporting the development.
