@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "669883613629",
+    "project_id": "ghrce-mechanical-papers",
+    "storage_bucket": "ghrce-mechanical-papers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669883613629:android:c8060e8dc6417d8eaa12d4",
+        "android_client_info": {
+          "package_name": "com.kp.carpriceprediction"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "669883613629-dhg4cjr6la4099rfs5haum7t9n9mcu56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4AdzDDsPfnFfmubccQGiYhZPed4tZyq4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "669883613629-dhg4cjr6la4099rfs5haum7t9n9mcu56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

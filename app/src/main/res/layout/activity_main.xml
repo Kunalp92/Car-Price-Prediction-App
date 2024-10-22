@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:background="#FFFFFF"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                android:gravity="center_vertical"
+                android:text="Car Price Estimation"
+                android:layout_weight="1"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:src="@drawable/info"
+                android:padding="5dp"
+                android:layout_marginRight="10dp"
+                android:contentDescription="Icon"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="Enter Year Car Details"
+                tools:ignore="HardcodedText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Enter Year:"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/editTextYear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext"
+                android:hint="Enter Year"
+                android:inputType="number"
+                android:padding="5dp"
+                android:textSize="20dp"
+                tools:ignore="Autofill,HardcodedText,SpUsage,TextContrastCheck,TouchTargetSizeCheck,TextSizeCheck,VisualLintTextFieldSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Enter Car Showroom Price:"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/editTextPresentPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext"
+                android:hint="Enter Price"
+                android:inputType="number"
+                android:padding="5dp"
+                android:textSize="20dp"
+                tools:ignore="Autofill,HardcodedText,SpUsage,TextContrastCheck,TextSizeCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Enter Kilometers Driven:"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/editTextKmsDriven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext"
+                android:hint="Enter Kms Driven"
+                android:inputType="number"
+                android:padding="5dp"
+                android:textSize="20dp"
+                tools:ignore="Autofill,HardcodedText,SpUsage,TextContrastCheck,TextSizeCheck,TouchTargetSizeCheck,VisualLintTextFieldSize" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Select Fuel Type:"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <Spinner
+                android:id="@+id/spinnerFuelType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext"
+                android:padding="5dp"
+                android:textSize="20dp"
+                tools:ignore="SpUsage,TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Select Dealer or Individual:"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <Spinner
+                android:id="@+id/spinnerSellerType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext"
+                android:padding="5dp"
+                android:textSize="20dp"
+                tools:ignore="SpUsage,TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Select Transmission Type:"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <Spinner
+                android:id="@+id/spinnerTransmission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext"
+                android:padding="5dp"
+                android:textSize="20dp"
+                tools:ignore="SpUsage,TouchTargetSizeCheck" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Enter Car Previous Owners:"
+                tools:ignore="HardcodedText,RtlHardcoded" />
+
+            <EditText
+                android:id="@+id/editTextOwner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/edittext"
+                android:hint="Enter Owner Count"
+                android:inputType="number"
+                android:padding="5dp"
+                android:textSize="20dp"
+                tools:ignore="Autofill,HardcodedText,SpUsage,VisualLintTextFieldSize,TextContrastCheck,TouchTargetSizeCheck,TextSizeCheck" />
+
+            <Button
+                android:id="@+id/buttonPredict"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@drawable/button"
+                android:text="Predict Price"
+                tools:ignore="HardcodedText,VisualLintButtonSize" />
+
+            <TextView
+                android:id="@+id/textViewResult"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:layout_marginBottom="50dp"
+                android:layout_marginTop="16dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
