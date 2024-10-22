@@ -79,15 +79,12 @@ The machine learning model is trained on the `car_prices.csv` dataset using **Go
 ## Screenshots
 
 ### Splash Screen
-![Splash Screen](path-to-home-screen-image)
-
+![Splash Screen](https://github.com/Kunalp92/Car-Price-Prediction-App/blob/69318fade1fc7a179d9fa9a659a9c123589ed7df/image/WhatsApp%20Image%202024-10-22%20at%2012.40.05%20PM.jpeg)
 ### Main Screen
-![Main Screen](https://github.com/Kunalp92/Car-Price-Prediction-App/image/WhatsApp Image 2024-10-22 at 12.40.04 PM.jpeg)
-
+![Main Screen](https://github.com/Kunalp92/Car-Price-Prediction-App/blob/69318fade1fc7a179d9fa9a659a9c123589ed7df/image/WhatsApp%20Image%202024-10-22%20at%2012.40.04%20PM.jpeg)
 ### About Screen
-![About Screen](path-to-prediction-screen-image)
+![About Screen](https://github.com/Kunalp92/Car-Price-Prediction-App/blob/69318fade1fc7a179d9fa9a659a9c123589ed7df/image/WhatsApp%20Image%202024-10-22%20at%2012.43.32%20PM.jpeg)
 
-*(Make sure to replace `path-to-home-screen-image` with the actual image paths from your project)*
 
 ## App Link
 
